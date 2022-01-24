@@ -1,0 +1,42 @@
+#bottom {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 300px;
+}
+.choice {
+  width: 100px;
+  height: 100px;
+  border: solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#head {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 300px;
+  margin-top: 50px;
+}
+#result {
+  text-align: center;
+}
+#botChoice {
+  width: 100px;
+  height: 100px;
+  border: solid black;
+  border-radius: 8px; 
+}
+#pierre {
+  background-image: url("Images/pierre.png");
+  background-size: 100% 100%;
+}
+#feuille {
+  background-image: url("Images/feuille.png");
+  background-size: 100% 100%;
+}
+#ciseau {
+  background-image: url("Images/ciseaux.png");
+  background-size: 100% 100%;
+}
+#botChoice {
+  background-size: 100% 100%;
+}
